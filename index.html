@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="container" class="container1">
+    <h1 id="heading">Change bgColor & Text Color</h1>
+    <br />
+    <br />
+
+    <p id="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita odit reiciendis totam eius porro.
+      Quis, cum ducimus.
+      Reprehenderit ab debitis quos dicta provident, harum assumenda,natus, accusantium deserunt dolore ullam?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, enim officiis vitae id provident corporis
+      nihil
+      unde accusamus earum aut doloremque et vel fuga minus exercitationem itaque culpa labore illo? Lorem ipsum dolor
+      sit amet consectetur </p>
+    <br />
+    <br />
+    <div class="text-buttons">
+      <button class="button" onclick="bgColors()">Background Color</button>
+      <button class="button" onclick="textColors()">Text Color</button>
+    </div>
+  </div>
+  <br />
+  <br />
+
+  <div class="container">
+    <div class="img-div"><img id="image" src="./img/img.jpg" alt=""></div>
+    <div class="img-button">
+      <button class="button" onclick="changingImg('show')">Show</button>
+      <button class="button" onclick="changingImg('hide')">Hide</button>
+      <button class="button" onclick="changingImg('big')">Big</button>
+      <button class="button" onclick="changingImg('small')">Small</button>
+    </div>
+  </div>
+  <br />
+  <br />
+  <div class="container1">
+ 
+    <img src="./img/bulbOn1.png" onmouseout="imgChange('off' , this)" onmouseover="imgChange('on' , this)" alt="">
+  </div>
+  <br />
+  <br />
+  <div class="container1">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus iusto ducimus voluptatibus odit 
+      corrupti alias praesentium quas veniam minus debitis blanditiis adipisci quam, perspiciatis tempora
+      numquam sunt molestiae possimus laborum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus iusto ducimus voluptatibus odit 
+      corrupti alias praesentium quas veniam minus debitis blanditiis adipisci quam, perspiciatis tempora
+      numquam sunt molestiae possimus laborum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus iusto ducimus voluptatibus odit 
+      corrupti alias praesentium quas veniam minus debitis blanditiis adipisci quam, perspiciatis tempora
+      numquam sunt molestiae possimus laborum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus iusto ducimus voluptatibus odit 
+      corrupti alias praesentium quas veniam minus debitis blanditiis adipisci quam, perspiciatis tempora
+      numquam sunt molestiae possimus laborum?</p>
+
+      <br />
+      <br />
+      <button class="button" onclick="paraColors()">Text Color</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
